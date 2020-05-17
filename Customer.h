@@ -17,6 +17,7 @@ class Customer{
 		std::string getGender();
 		void setDOB(std::string);
 		std::string getDOB();
+		void printCustomerInfo();
 		
 
 

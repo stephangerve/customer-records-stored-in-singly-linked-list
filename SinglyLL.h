@@ -13,8 +13,9 @@ class SinglyLL{
 		SinglyLL();
 		~SinglyLL();
 		Node* get(int);
-		bool remove(int);
-		bool insert(Node*);
+		void remove(int);
+		void insert(Node*);
+		bool exists(int);
 		bool isEmpty();
 		int size();
 		void printList();

@@ -27,11 +27,10 @@ Node::~Node(){
 	delete C;
 
 }
-
+void Node::printID(){
+	std::cout << C->getName() << std::endl;
+}
 void Node::printData(){
-	std::cout << "Name: " << C->getName() << std::endl;
-	std::cout << "Gender: " << C->getGender() << std::endl;
-	std::cout << "DOB: " << C->getDOB() << std::endl;
-	std::cout << std::endl;
+	C->printCustomerInfo();
 }
 

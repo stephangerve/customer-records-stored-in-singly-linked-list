@@ -17,6 +17,7 @@ class Node{
 		void setCustomer(Customer*);
 		Node *getNext();
 		void setNext(Node*);
+		void printID();
 		void printData();
 };
 

@@ -31,3 +31,9 @@ void Customer::setDOB(std::string DOB){
 std::string Customer::getDOB(){
 	return DOB;
 }
+void Customer::printCustomerInfo(){
+	std::cout << "Name: " << name << std::endl;
+	std::cout << "Gender: " << gender << std::endl;
+	std::cout << "DOB: " << DOB << std::endl;
+	std::cout << std::endl;
+}
